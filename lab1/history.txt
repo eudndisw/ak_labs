@@ -1,0 +1,92 @@
+ 1219  uname -a
+ 1220  sudo apt update
+ 1221  cat /etc/apt/sources.list
+ 1222  sudo apt install vim
+ 1223  cd
+ 1224  cd Downloads
+ 1225  man ls
+ 1226  ls -l
+ 1227  dpkg -i package.deb
+ 1228  sudo dpkg -i package.deb
+ 1229  cd /
+ 1230  sudo su
+ 1231  echo "hi all"
+ 1232  echo "$PWD hi all here!"
+ 1233  touch hi.sh
+ 1234  echo $PATH
+ 1235  vi hi.sh
+ 1236  ./hi.sh
+ 1237  chmod a+x hi.sh
+ 1238  cd
+ 1239  ./hi.sh
+ 1240  chmod a+x hi.sh
+ 1241  chmod 777 hi.sh
+ 1242  ./hi.sh
+ 1243  ./hi.sh Ukraine
+ 1244  mkdir scripts
+ 1245  cp hi.sh scripts/
+ 1246  mkdir Documents
+ 1247  cp scripts Documents/
+ 1248  cp -r scripts Documents/
+ 1249  cd scripts
+ 1250  mv hi.sh ../
+ 1251  cd ..
+ 1252  rm scripts
+ 1253  rm -r scripts
+ 1254  cd /bin
+ 1255  ls -l
+ 1256  cd ../..
+ 1257  tar -cvf scripts.tar scripts/
+ 1258  mkdir scripts
+ 1259  tar -cvf scripts.tar scripts/
+ 1260  cd
+ 1261  tar -cvf scripts.tar scripts/
+ 1262  mkdir scripts
+ 1263  tar -cvf scripts.tar scripts/
+ 1264  cat /etc/hostname
+ 1265  cat /var/log/syslog
+ 1266  tail -n 20 /var/log/syslog
+ 1267  less /var/log/syslog
+ 1268  cd /
+ 1269  find . -name "dhcp"
+ 1270  find . -name "*dhcp*"
+ 1271  find . -name "*dhcp*" | grep -i "dhcp"
+ 1272  find . -name "*dhcp*" | grep -i "etc"
+ 1273  cd
+ 1274  ping google.com
+ 1275  ping google.com > ping.log &
+ 1276  sudo ping google.com
+ 1277  vlc
+ 1278  ls -l
+ 1279  cd /bin
+ 1280  ls
+ 1281  echo $PATH
+ 1282  env
+ 1283  whoami
+ 1284  cd /etc
+ 1285  ls
+ 1286  cd ..
+ 1287  cd lib
+ 1288  ls
+ 1289  dmesg
+ 1290  sudo dmesg
+ 1291  ls /dev
+ 1292  sudo dmesg -c
+ 1293  dmesg
+ 1294  df -h
+ 1295  cd /home
+ 1296  ls -l
+ 1297  lsmod
+ 1298  cd /proc
+ 1299  cat cpuinfo
+ 1300  echo 1 > /proc/sys/net/ipv4/ip_forward
+ 1301  sudo su
+ 1302  cd
+ 1303  echo "vika" > 1.txt
+ 1304  cat 1.txt
+ 1305  echo "vasya" > 2.txt
+ 1306  cat 2.txt
+ 1307  diff 1.txt 2.txt
+ 1308  history
+ 1309  lspci
+ 1310  history > history.txt

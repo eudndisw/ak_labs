@@ -1,0 +1,8 @@
+ 1219  fg
+ 1220  ps -ef | grep ping
+ 1221  kill -15 12064
+ 1222  ps aux | grep ping
+ 1223  kill -15 13235
+ 1224  sudo kill -9 13235
+ 1225  sudo killall vlc
+ 1226  history > history2.txt
