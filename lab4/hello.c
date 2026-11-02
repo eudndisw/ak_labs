@@ -1,4 +1,4 @@
-w/*
+/*
  * Copyright (c) 2017, GlobalLogic Ukraine LLC
  * All rights reserved.
  *
